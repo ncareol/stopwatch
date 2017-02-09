@@ -7,7 +7,7 @@ Show the time that was necessary to render your page and the amount of queries t
 Just add the following to your __development__ group and you are good to go:
 
 ``` ruby
-gem 'stopwatch'
+gem 'stopwatch', git: 'https://github.com/ncareol/stopwatch.git'
 ```
 
 Every page will now display the duration in the upper right corner and the

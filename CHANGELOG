@@ -1,3 +1,6 @@
+v0.0.5
+  * Content-Length: handle body w/ UTF8 characters for Ruby 1.9+ to avoid Rack::Lint::LintError
+
 v0.0.4
   * Only inserts code if the content-type is text/html or application/xhtml+xml
 
